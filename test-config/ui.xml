@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Automation">
+    <listeners>
+        <listener
+                class-name="common.listener.ExtentListeners"/>
+    </listeners>
+    <test name="UI TestCases">
+        <classes>
+            <class name="testcases.LoginTest"/>
+            <class name="testcases.HomeTest"/>
+        </classes>
+    </test>
+
+</suite>
